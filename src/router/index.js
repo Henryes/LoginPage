@@ -6,12 +6,22 @@ Vue.use(Router)
 
 export const routes = [
   {
-    path:'/login', 
-    component: () => import('@/views/login/index')
+    path:'/', 
+    component: () => import('@/views/index/Index.vue'),
+    children: [
+      {
+        path:'homepage',
+        component: () => import('@/views/homepage/Index.vue')
+      },
+      {
+        path:'user',
+        component: () => import('@/views/user/Index.vue')
+      }
+    ]
   },
   {
-    path:'/user',
-    component: () => import('@/views/user/yhh')
+    path:'/login', 
+    component: () => import('@/views/login/index')
   }
 ]
 
