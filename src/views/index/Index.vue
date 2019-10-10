@@ -2,7 +2,7 @@
   <el-container>
     <el-aside width="200px" style="height: 100%">
       <el-menu 
-        default-active="/user"
+        default-active="/depart"
         background-color="rgb(48, 65, 86)"
         :router="true">
         <el-menu-item v-for="(menu, index) in menus" :index="menu.path" :key="index">{{menu.label}}</el-menu-item>
@@ -81,6 +81,10 @@ export default {
         {
           path: '/system',
           name: '系统管理'
+        },
+        {
+          path: '/file',
+          name: '文档'
         }
       ],
       search: ''

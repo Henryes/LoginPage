@@ -123,11 +123,11 @@
 import CountTo from 'vue-count-to'
 import RaddarChart from './RaddarChart/RaddarChart.vue'
 import LineChart from '@/views/homepage/LineChart/LineChart.vue'
-import TransactionTable from './TransactionTable/TransactionTable'
+import TransactionTable from './TransactionTable/TransactionTable.vue'
 import PieChart from './PieChart/PieChart.vue'
 import BarChart from './BarChart/BarChart.vue'
 import TodoList from './TodoList/index.vue'
-import BoxCard from './BoxCard/BoxCard'
+import BoxCard from './BoxCard/BoxCard.vue'
 
 const lineChartData = {
   newVisitis: {

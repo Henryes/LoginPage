@@ -32,7 +32,6 @@ import PanThumb from '@/components/PanThumb/index'
 import Mallki from '@/components/TextHoverEffect/Mallki'
 
 export default {
-  name:'',
   components: { PanThumb, Mallki },
 
   filters: {
@@ -60,6 +59,7 @@ export default {
     ])
   }
 }
+
 </script>
 
 <style lang="scss" >
