@@ -68,7 +68,7 @@ export default {
       menus: [
         {
           path: '/homepage',
-          name: '首页'
+          label: '首页'
         },
         {
           path: '/user',
@@ -76,15 +76,15 @@ export default {
         },
         {
           path: '/depart',
-          name: '部门管理'
+          label: '部门管理'
         },
         {
           path: '/system',
-          name: '系统管理'
+          label: '系统管理'
         },
         {
           path: '/file',
-          name: '文档'
+          label: '文档'
         }
       ],
       search: ''
