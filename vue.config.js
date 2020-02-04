@@ -4,7 +4,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  publicPath: '/managerSystem/dist',
+  publicPath: '/mangerSystem/dist',
   
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
