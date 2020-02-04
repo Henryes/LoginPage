@@ -106,7 +106,7 @@
       </el-row>
       <el-row :gutter="8">
         <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}" style="padding-right:8px;margin-bottom:30px;">
-          <transaction-table />
+          
         </el-col>
         <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
           <todo-list />
@@ -123,7 +123,7 @@
 import CountTo from 'vue-count-to'
 import RaddarChart from './RaddarChart/RaddarChart.vue'
 import LineChart from '@/views/homepage/LineChart/LineChart.vue'
-import TransactionTable from './TransactionTable/TransactionTable.vue'
+// import TransactionTable from './TransactionTable/TransactionTable.vue'
 import PieChart from './PieChart/PieChart.vue'
 import BarChart from './BarChart/BarChart.vue'
 import TodoList from './TodoList/index.vue'
@@ -165,7 +165,7 @@ export default {
     PieChart,
     RaddarChart,
     BarChart,
-    TransactionTable,
+    // TransactionTable,
     TodoList,
     BoxCard 
   },

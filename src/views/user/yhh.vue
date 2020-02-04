@@ -61,7 +61,7 @@
            <div data-v-032bd1f0="" class="el-select header-search-select el-select--medium"><!----><div class="el-input el-input--medium el-input--suffix"><!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Search" class="el-input__inner"><!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-select__caret el-input__icon el-icon-"></i><!----><!----><!----><!----></span><!----></span><!----></div><div class="el-select-dropdown el-popper" style="display: none;">
              <div class="el-scrollbar" style="display: none;"><div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -15px; margin-right: -15px;"><ul class="el-scrollbar__view el-select-dropdown__list"></ul></div><div class="el-scrollbar__bar is-horizontal"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical">
                <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!----></div></div></div> <!----> <div data-v-29234bee="" data-v-d16d6306="" id="screenfull" class="right-menu-item hover-effect">
-               <svg data-v-c8a70580="" data-v-29234bee="" aria-hidden="true" class="svg-icon"><use data-v-c8a70580="" xlink:href="#icon-fullscreen"></use></svg></div> <div data-v-d16d6306="" class="el-tooltip right-menu-item hover-effect el-dropdown" id="size-select" aria-describedby="el-tooltip-6762" tabindex="0">
+               <svg aria-hidden="true" class="svg-icon"><use data-v-c8a70580="" xlink:href="#icon-fullscreen"></use></svg></div> <div data-v-d16d6306="" class="el-tooltip right-menu-item hover-effect el-dropdown" id="size-select" aria-describedby="el-tooltip-6762" tabindex="0">
                  <div aria-haspopup="list" aria-controls="dropdown-menu-9174" role="button" tabindex="0" class=" el-dropdown-selfdefine">
                  <svg data-v-c8a70580="" aria-hidden="true" class="svg-icon size-icon"><use data-v-c8a70580="" xlink:href="#icon-size"></use></svg></div>
                 <ul class="el-dropdown-menu el-popper el-dropdown-menu--medium" id="dropdown-menu-9174" style="display: none;"><li tabindex="-1" class="el-dropdown-menu__item"><!---->
@@ -150,15 +150,15 @@
       }
     },
     methods: {
-      formatter(row, column) {
+      formatter(row, ) {
         return row.address;
       
-    methods: {
-      handleOpen(key, keyPath) 
-        console.log(key, keyPath);
-      }
-      handleClose(key, keyPath) 
-        console.log(key, keyPath);
+    // column// methods: {
+    //   handleOpen(key, keyPath) 
+    //     console.log(key, keyPath);
+    //   }
+    //   handleClose(key, keyPath) 
+    //     console.log(key, keyPath);
       }
     }
   }

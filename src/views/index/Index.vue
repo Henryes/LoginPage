@@ -4,10 +4,10 @@
       <el-menu 
         default-active="/depart"
         background-color="rgb(48, 65, 86)"
+        text-color="white"
         :router="true">
         <el-menu-item v-for="(menu, index) in menus" :index="menu.path" :key="index">{{menu.label}}</el-menu-item>
-        <!-- <el-submenu index="/system">
-        </el-submenu> -->
+
       </el-menu>
     </el-aside>
     <el-container>
@@ -72,20 +72,84 @@ export default {
         },
         {
           path: '/user',
-          label: '用户管理'
+          label: '文档'
         },
         {
           path: '/depart',
-          label: '部门管理'
+          label: '引导页'
         },
         {
           path: '/system',
-          label: '系统管理'
+          label: '权限测试页'
         },
         {
           path: '/file',
-          label: '文档'
-        }
+          label: '图标'
+        },
+        {
+          path: '/electricity',
+          label: '组件'
+        },
+        {
+          path: '/file',
+          label: '图表'
+        },
+        {
+          path: '/electricity',
+          label: '路由嵌套'
+        },
+        {
+          path: '/electricity',
+          label: 'Table'
+        },
+        {
+          path: '/electricity',
+          label: '综合实例'
+        },
+        {
+          path: '/electricity',
+          label: 'Tab'
+        },
+        {
+          path: '/electricity',
+          label: '错误页面'
+        },
+        {
+          path: '/electricity',
+          label: '错误日志'
+        },
+        {
+          path: '/electricity',
+          label: 'Excel'
+        },
+        {
+          path: '/electricity',
+          label: 'Zip'
+        },
+        {
+          path: '/electricity',
+          label: 'PDF'
+        },
+        {
+          path: '/electricity',
+          label: '换肤'
+        },
+        {
+          path: '/electricity',
+          label: 'Clipboard'
+        },
+        {
+          path: '/electricity',
+          label: '国际化'
+        },
+        {
+          path: '/electricity',
+          label: '外链'
+        },
+        {
+          path: '/electricity',
+          label: '打赏'
+        },
       ],
       search: ''
     }
